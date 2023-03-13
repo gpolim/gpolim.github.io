@@ -49,6 +49,7 @@ button:active {
 
 header {
 	background-color: #858e99;
+	color: #fff;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	position: sticky;
 	top: 0;
