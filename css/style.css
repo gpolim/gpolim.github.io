@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  color: #08e200;
+  color: #03009e;
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 4px;
@@ -75,12 +75,12 @@ p {
 }
 
 .btn:focus {
-  background: #77e44c;
+  background: #03009e;
   border-color: transparent;
 }
 
 .btn-success {
-  background: #d6c103;
+  background: #03009e;
   font-weight: 300;
   letter-spacing: 2px;
   padding: 14px 32px;
@@ -88,7 +88,7 @@ p {
 }
 
 .btn-success:hover {
-  background: #222;
+  background: #2d16fd;
 }
 
 a {
@@ -507,7 +507,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .form-control:focus {
-  border-color: #e44c65;
+  border-color: #03009e;
   color: #ffffff;
 }
 
@@ -516,7 +516,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"] {
-  background: #e44c65;
+  background: #03009e;
   border:none;
   color: #ffffff;
   font-weight: 400;
@@ -524,7 +524,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"]:hover {
-  background: #222;
+  background: #2f18ff;
   color: #ffffff;
 }
 
@@ -569,7 +569,7 @@ footer {
 
 .social-icon li a:hover {
   background: #ffffff;
-  color: #e44c65;
+  color: #3a2cff;
 }
 
 
@@ -597,7 +597,7 @@ footer {
 }
 
 .go-top:hover {
-  background: #e44c65;
+  background: #03009e;
   color: #ffffff;
 }
 
