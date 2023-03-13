@@ -1,0 +1,124 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 1em;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2em;
+}
+
+.destaque {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.recursos {
+	margin-bottom: 2em;
+}
+
+.recursos ul {
+	list-style: disc;
+	margin-left: 2em;
+}
+
+.precos {
+	text-align: center;
+}
+
+.precos ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.precos li {
+	font-size: 1.2em;
+	margin: 1em 0;
+}
+
+button {
+	background-color: #007bff;
+	border: none;
+color: #fff;
+padding: 0.5em 1em;
+border-radius: 0.5em;
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+button:hover {
+background-color: #0069d9;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 1em;
+}
+
+footer p {
+margin: 0;
+}
+
+@media (max-width: 600px) {
+header {
+flex-direction: column;
+align-items: center;
+}
+nav {
+	margin-top: 1em;
+}
+
+main {
+	padding: 1em;
+}
+
+.destaque h2 {
+	font-size: 1.5em;
+}
+
+.recursos h2 {
+	font-size: 1.5em;
+}
+
+.recursos ul {
+	font-size: 0.8em;
+}
+
+.precos h2 {
+	font-size: 1.5em;
+}
+
+.precos li {
+	font-size: 1em;
+}
+}
