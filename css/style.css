@@ -701,6 +701,13 @@ footer {
 /* Configuração para celular */
 @media screen and (max-width: 760px) {
   nav img {
+    margin-left: 1rem;
+    margin-top: 1rem;
     width: 16%;
+  }
+
+  iframe {
+    width: 350px;
+    height: 315px;
   }
 }
