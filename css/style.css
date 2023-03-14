@@ -9,10 +9,10 @@ http://www.templatemo.com/tm-493-snapshot
 /* Body 
 ------------------------------------- */
 body {
-    background: #ffffff;   
+    background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 250;
     position: relative;
 }
 
@@ -99,7 +99,7 @@ a {
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #bb06ac;
+  color: #01d9ff;
   outline: none;
 }
 
@@ -491,8 +491,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact, footer {
-  background: #304352;
-  color: #ffffff;
+  background: #00084d;
+  color: #00084d;
 }
 
 #contact .form-control {
@@ -516,7 +516,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"] {
-  background: #03009e;
+  background: #000003e1;
   border:none;
   color: #ffffff;
   font-weight: 400;
@@ -580,7 +580,7 @@ footer {
 
 .go-top {
   background-color: #ffffff;
-  box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14 ), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
+  box-shadow: 1px 1.732px 12px 0px rgba(0, 0, 0, 0.14), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
   transition : all 1s ease;
   bottom: 2em;
   right: 2em;
