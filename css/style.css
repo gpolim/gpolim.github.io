@@ -40,6 +40,7 @@ h1 {
   letter-spacing: 12px;
   text-transform: uppercase;
   padding-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 h2 {
@@ -68,6 +69,27 @@ p {
   color: #f9f9f9;
 }
 
+.btn-vm {
+  color:#ffffff;
+  background-color: #0e0088;
+  font-weight: 700;
+  font-size: large;
+  letter-spacing: 4px;
+  padding: 14px 32px;
+  margin-top: 1.5em;
+  border:none;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-vm:hover {
+  color: #fff;
+  background: #1502c0;
+}
+
+.btn-vm:active {
+  background: #003de6;
+}
+
 .btn {
   border:none;
   border-radius: 4px;
@@ -91,15 +113,19 @@ p {
   background: #2d16fd;
 }
 
+.btn-success:active {
+  background: #000000;
+}
+
 a {
-  color: #160d9c;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #004bad;
+  color: #ffffff;
   outline: none;
 }
 
@@ -213,14 +239,14 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .navbar-default {
-  background: #ffffff;
+  background: #080808;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
   border: none;
   margin-bottom: 0px !important;
 }
 
 .navbar-default .navbar-brand {
-  color: #304352;
+  color: #ffffff;
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -228,7 +254,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav li a {
-    color: #777;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -252,7 +278,7 @@ a:hover, a:active, a:focus {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(0, 225, 255);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -279,23 +305,23 @@ a:hover, a:active, a:focus {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #304352;
+  background-color: rgb(0, 225, 255);
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #304352 !important;
+    color: #dadbdb !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #777;
+    color: rgb(0, 225, 255);
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #304352;
+    color: #ffffff;
     background-color: transparent;
 }
 
@@ -311,6 +337,11 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { 
   background-color: transparent;
+}
+
+nav img {
+  width: 40%;
+  margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -417,7 +448,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .team-thumb:hover {
-  background: #304352;
+  background: #91a0ac;
 }
 
 #about .team-thumb:hover .image-holder {
@@ -665,6 +696,7 @@ footer {
 
 }
 
+/* Configuração para celular */
 @media screen and (max-width: 760px) {
   nav img {
     width: 16%;
