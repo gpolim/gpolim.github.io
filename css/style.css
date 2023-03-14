@@ -71,7 +71,7 @@ p {
 
 .btn-vm {
   color:#ffffff;
-  background-color: #0e0088;
+  background-color: #03009e;
   font-weight: 700;
   font-size: large;
   letter-spacing: 4px;
@@ -83,7 +83,7 @@ p {
 
 .btn-vm:hover {
   color: #fff;
-  background: #1502c0;
+  background: #03009e;
 }
 
 .btn-vm:active {
@@ -125,7 +125,7 @@ a {
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #01c8cf;
+  color: rgb(0, 225, 255);
   font-size: x-large;
   outline: none;
 }
@@ -210,7 +210,7 @@ a:hover, a:active, a:focus {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #0501ff;
+  background-color: #03009e;
   border-radius: 100%;
   margin: 40px auto;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
@@ -406,6 +406,7 @@ nav img {
 }
 
 #about .about-thumb {
+  margin-left: 10rem;
   background: #ffffff;
   border-radius: 4px;
   padding: 100px;
@@ -413,7 +414,7 @@ nav img {
 }
 
 #about .about-img img {
-  border: 8px solid #ffffff;
+  border: 8px solid #020202;
   position: absolute;
   left: -120px;
   bottom: -325px;
@@ -524,8 +525,8 @@ nav img {
 -----------------------------------------*/
 
 #contact, footer {
-  background: #00084d;
-  color: #00084d;
+  background: #03009e;
+  color: #03009e;
 }
 
 #contact .form-control {
