@@ -118,14 +118,15 @@ p {
 }
 
 a {
-  color: #fff;
+  color: #0e76a8;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #ffffff;
+  color: #01c8cf;
+  font-size: x-large;
   outline: none;
 }
 
@@ -137,6 +138,7 @@ a:hover, a:active, a:focus {
 
 *:before,
 *:after {
+  font-size: medium;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -547,7 +549,7 @@ nav img {
 }
 
 #contact input[type="submit"] {
-  background: #00000369;
+  background: #000003a1;
   border:none;
   color: #ffffff;
   font-weight: 400;
