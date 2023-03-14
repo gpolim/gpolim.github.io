@@ -667,6 +667,6 @@ footer {
 
 @media screen and (max-width: 768px) {
   nav img {
-    width: 100px;
+    width: 16%;
   }
 }
